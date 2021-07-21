@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
-
+import img from "../../images/img.png";
 function Footer() {
   return (
     <div className="footer-container">
@@ -9,7 +9,8 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              Hofars <i class="fas fa-radiation-alt ic"></i>
+              <img src={img} id="hofarslogoft"></img>
+              Hofars
             </Link>
           </div>
           <small className="website-rights">Hofars © 2021</small>

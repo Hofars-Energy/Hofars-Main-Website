@@ -20,6 +20,10 @@
   text-decoration: underline;
 }
 
+#hofarslogo {
+  width: 5vh;
+}
+
 /* Footer left */
 
 .cu .footer-distributed .footer-left {

@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import "./contactus.css";
+import img from "../../images/img.png";
 
-const contactUs = () => {
+const Contactus = () => {
   return (
     <div className="cu">
       <footer class="footer-distributed">
         <div class="footer-left">
           <h3>
-            Company<span>logo</span>
+            <img src={img} id="hofarslogo"></img>
+            <span>Hofars</span>
           </h3>
           <p class="footer-links">
-            <a href="#">Home</a>·<a href="#">Blog</a>·<a href="#">Pricing</a>·
-            <a href="#">About</a>·<a href="#">Faq</a>·<a href="#">Contact</a>
+            <a href="#">Home</a>.<a href="#">Blog</a>.<a href="#">Pricing</a>.
+            <a href="#">Faq</a>.<a href="#">Contact</a>
           </p>
 
           <p class="footer-company-name">Hofars © 2021</p>
@@ -51,4 +53,4 @@ const contactUs = () => {
   );
 };
 
-export default contactUs;
+export default Contactus;

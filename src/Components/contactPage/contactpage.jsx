@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import contactUs from "../contactus/cu.jsx";
-import mapComp from "../mapcomp/mapcomp";
+import Contactus from "../contactus/cu";
+import MapComp from "../mapcomp/Map";
 class cp extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <contactUs />
+      <div className="contact1">
+        <Contactus />
+        <MapComp />
       </div>
     );
   }

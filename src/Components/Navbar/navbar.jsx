@@ -24,9 +24,9 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-container">
+          {/* <img src={img} id="hofarslogo"></img> */}
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            Hofars
-            <i class="fas fa-radiation-alt ic"></i>
+            <img src={img} id="hofarslogonv"></img> Hofars
           </Link>
           <div className="menu-icon" onClick={() => setClicker(!click)}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />

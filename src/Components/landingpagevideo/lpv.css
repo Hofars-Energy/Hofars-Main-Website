@@ -1,0 +1,22 @@
+.lpv-container {
+  display: relative;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  height: 80vh;
+  width: 100%;
+}
+
+.lpv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1500px;
+}
+.landingpagevideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80vh;
+}

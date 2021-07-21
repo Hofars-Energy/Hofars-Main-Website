@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HeroSection from "../hero/heroHome";
 import CardSkills from "../cards/cardSkills";
+import LandingPageVideo from "../landingpagevideo/lpv";
 import BlogCards from "../cards/blogcards";
 class HomePage extends Component {
   state = {};
@@ -8,6 +9,7 @@ class HomePage extends Component {
     return (
       <>
         <HeroSection />
+        <LandingPageVideo />
         <CardSkills />
         <BlogCards />
       </>

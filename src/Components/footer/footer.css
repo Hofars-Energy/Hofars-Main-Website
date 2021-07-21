@@ -162,5 +162,9 @@
   }
 }
 
+#hofarslogoft {
+  width: 5vh;
+}
+
 @media screen and (max-width: 768px) {
 }

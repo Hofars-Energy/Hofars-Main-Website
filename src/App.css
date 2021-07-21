@@ -10,6 +10,7 @@
 .aboutus,
 .careers,
 .internships,
+.contact,
 .projects {
   display: flex;
   height: 90vh;

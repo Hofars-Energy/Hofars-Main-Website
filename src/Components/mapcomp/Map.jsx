@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-
+import "./Map.css";
 mapboxgl.accessToken =
   "pk.eyJ1IjoicHJpeWFkYXJzaGktYW1hbiIsImEiOiJja3B0bTdpNjYwM2RqMnFwYXBlcXh6OHhnIn0.AvnjsRrV6uWKX4IHTB5Z6A";
-
-class mapComp extends Component {
+// 28.640956881115947, 77.3222678204435
+class MapComp extends Component {
   state = {};
   constructor(props) {
     super(props);
     this.state = {
-      lng: -118.19,
-      lat: 33.77,
+      lng: 77.3222678204435,
+      lat: 28.640956881115947,
       zoom: 12,
     };
     this.mapContainer = React.createRef();
@@ -30,14 +30,16 @@ class mapComp extends Component {
   render() {
     return (
       <>
-        <div
-          className="mapcontact"
-          id="map"
-          style={{ width: "95%", height: "400px" }}
-        ></div>
+        <div className="map-container">
+          <div
+            className="mapcontact"
+            id="map"
+            style={{ width: "100%", height: "400px" }}
+          ></div>
+        </div>
       </>
     );
   }
 }
 
-export default mapComp;
+export default MapComp;

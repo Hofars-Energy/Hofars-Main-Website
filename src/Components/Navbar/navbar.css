@@ -10,6 +10,9 @@
   z-index: 999;
 }
 
+#hofarslogonv {
+  width: 5vh;
+}
 .navbar-container {
   display: flex;
   justify-content: center;
