@@ -1,5 +1,6 @@
 import "./App.css";
-
+import cp from "./Components/contactPage/contactpage";
+import contactUs from "./Components/contactus/cu";
 import Navbar from "./Components/Navbar/navbar";
 import HomePage from "./Components/homepage/homepage";
 import {
@@ -18,6 +19,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/home" component={HomePage} />
+          <Route path="/contact" exact component={cp} />
           <Redirect path="/" exact to="/home" />
         </Switch>
         <Footer />

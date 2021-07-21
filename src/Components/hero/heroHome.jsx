@@ -8,7 +8,7 @@ const HeroSection = () => {
       <h1>Hofars</h1>
       <p>Inspiring Transformation With Technology </p>
       <br></br>
-      <Typewriter
+      {/* <Typewriter
         options={{
           strings: ["IT", "Energy", "Customer Excellence", "Human Resources"],
           delay: 50,
@@ -16,7 +16,7 @@ const HeroSection = () => {
           autoStart: true,
           loop: true,
         }}
-      />
+      /> */}
     </div>
   );
 };

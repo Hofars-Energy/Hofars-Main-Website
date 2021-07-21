@@ -33,17 +33,13 @@ const Navbar = () => {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link
-                to="/AboutUs"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
+              <Link to="/Home" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/resumebank"
+                to="/about"
                 className="nav-links "
                 onClick={closeMobileMenu}
               >
@@ -52,17 +48,25 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <Link to="/ATS" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/careers"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Careers
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/ATS" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/contact"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Contact
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/ATS" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/hfp" className="nav-links" onClick={closeMobileMenu}>
                 Hofars Internship Program
               </Link>
             </li>

@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(rgb(61, 60, 60), rgb(255, 255, 255));
+  background: linear-gradient(rgb(61, 60, 60), rgb(0, 0, 0));
   height: 80px;
   display: flex;
   justify-content: center;
@@ -45,7 +45,8 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 80vw;
+  float: right;
   justify-content: end;
   margin-right: 0rem;
 }
