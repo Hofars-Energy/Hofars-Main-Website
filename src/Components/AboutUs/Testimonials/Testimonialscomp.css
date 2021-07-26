@@ -1,0 +1,50 @@
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+body {}
+.img_cc {
+  border-radius: 50%;
+  float: left;
+}
+
+.header {
+  float : left;
+  font-size: 20px;
+  font-weight:bold;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title_pos{
+  float :right;
+  font-size: 16px;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content_prof{
+  font-size: 16px;
+  float : left;
+  padding-top : 60px;
+  padding-right: 90px;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+
+}
+
+.container { 
+  column-count: 2;
+  margin:0;
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  padding-left :150px;
+  margin: 16px 0;
+}
+
+.testi-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+

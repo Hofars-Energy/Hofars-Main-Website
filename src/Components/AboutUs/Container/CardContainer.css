@@ -1,0 +1,27 @@
+
+
+.grid {
+  display: grid;
+}
+
+/* O repeat vai repetir o número de colunas */
+.grid-template-columns-4 {
+  column-count: 3;
+  padding-left: 40px;
+  column-gap: 10px;
+  text-align: center;
+  column-rule: 1px solid lightblue;
+}
+.box {
+  width: 300px;
+  text-align : right;
+}
+.head{
+  font-size: 26px;
+  font-weight:bold;
+}
+.head_content{
+  font-size: 18px;
+  word-wrap: break-word;
+  word-spacing: 4px;
+}
