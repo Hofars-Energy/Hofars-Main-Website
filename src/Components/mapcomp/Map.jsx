@@ -5,6 +5,8 @@ import "./Map.css";
 mapboxgl.accessToken =
   "pk.eyJ1IjoicHJpeWFkYXJzaGktYW1hbiIsImEiOiJja3B0bTdpNjYwM2RqMnFwYXBlcXh6OHhnIn0.AvnjsRrV6uWKX4IHTB5Z6A";
 // 28.640956881115947, 77.3222678204435
+// mapboxgl.accessToken = 'pk.eyJ1Ijoic2h1Ymh2YXNoaXNodCIsImEiOiJja3JmMGJkbW8yNTJ6MnBwOHVyMTNxNnQ4In0.WzWIYsLpYp5Yg-kRdHXdGQ';
+
 class MapComp extends Component {
   state = {};
   constructor(props) {

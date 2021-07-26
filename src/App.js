@@ -2,6 +2,7 @@ import "./App.css";
 import cp from "./Components/contactPage/contactpage";
 import contactUs from "./Components/contactus/cu";
 import Navbar from "./Components/Navbar/navbar";
+import CareerMainPage from "./Components/careerMain/careerMainpage";
 import HomePage from "./Components/homepage/homepage";
 import {
   BrowserRouter as Router,
@@ -20,6 +21,7 @@ function App() {
         <Switch>
           <Route path="/home" component={HomePage} />
           <Route path="/contact" exact component={cp} />
+          <Route path="/careers" exact component={CareerMainPage} />
           <Redirect path="/" exact to="/home" />
         </Switch>
         <Footer />
