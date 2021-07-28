@@ -38,11 +38,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/about"
-                className="nav-links "
-                onClick={closeMobileMenu}
-              >
+              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 About
               </Link>
             </li>
@@ -66,7 +62,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/hfp" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/hip" className="nav-links" onClick={closeMobileMenu}>
                 Hofars Internship Program
               </Link>
             </li>

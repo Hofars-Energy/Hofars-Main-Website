@@ -6,6 +6,9 @@
   width: 100%;
 }
 
+.lpv-container h1 {
+  font-size: 10vh;
+}
 .lpv {
   display: flex;
   justify-content: center;

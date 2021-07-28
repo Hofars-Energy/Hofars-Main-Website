@@ -1,0 +1,33 @@
+.detailsIC {
+  margin-top: 10vh;
+  margin: 5vh;
+  min-height: 50vh;
+}
+.detailsPura {
+  background-color: rgb(255, 255, 255);
+}
+
+.detailsIC h1 {
+  font-size: 10vh;
+  /* float: left; */
+}
+
+.detailsIC h2 {
+  font-size: 10vh;
+}
+.detailsIC h3 {
+  font-size: 4vh;
+}
+.detailsIC h4 {
+  font-size: 3vh;
+  padding-left: 4vh;
+  padding-top: 2vh;
+}
+
+.detailsIC .mandatoryskills {
+  margin-top: 8vh;
+}
+
+.detailsIC .qualifications {
+  margin-top: 8vh;
+}

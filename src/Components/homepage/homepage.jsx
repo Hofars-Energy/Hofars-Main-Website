@@ -5,6 +5,9 @@ import LandingPageVideo from "../landingpagevideo/lpv";
 import BlogCards from "../cards/blogcards";
 class HomePage extends Component {
   state = {};
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <>

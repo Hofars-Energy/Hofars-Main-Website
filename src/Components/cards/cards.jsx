@@ -12,18 +12,8 @@ const Cards = () => {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            <CardItem
-              src={image1}
-              text="Get to know about the skills I have mastered and the technologies I have learnt."
-              label="Skills"
-              path="/skills"
-            />
-            <CardItem
-              src={image2}
-              text="Get to know about the projects I have worked on and spent my blood and sweat on!"
-              label="Projects"
-              path="/projects"
-            />
+            <CardItem src={image1} text="" label="Skills" path="/skills" />
+            <CardItem src={image2} text="" label="Projects" path="/projects" />
           </ul>
         </div>
       </div>

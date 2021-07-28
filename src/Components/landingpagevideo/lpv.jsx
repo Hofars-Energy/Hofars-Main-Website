@@ -5,7 +5,7 @@ class LandingPageVideo extends Component {
   render() {
     return (
       <div className="lpv-container">
-        <h1>Know more bout us</h1>
+        <h1>Get to know us:</h1>
         <div className="lpv">
           <iframe
             className="landingpagevideo"

@@ -1,19 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./careerCards.scss";
-
+import jobsJson from "../../jsonFiles/jobs.json";
 class CareerCards extends Component {
   state = {
-    jobs: [
-      { name: ".Net Developer", location: "Hyderabad", id: 1 },
-      { name: "Senior Java Developer", location: "Lower Parel, Mumbai", id: 2 },
-      { name: "IT Intern", location: "Remote", id: 3 },
-      { name: "HR Intern", location: "Remote", id: 4 },
-      { name: "Digital Marketing Intern", location: "Remote", id: 5 },
-      { name: "Product Consultant", location: "Hyderabad", id: 6 },
-      { name: "Shopify Developer", location: "Remote", id: 7 },
-      { name: "Business Analyst Intern", location: "Remote", id: 8 },
-    ],
+    jobs: jobsJson,
   };
   render() {
     return (

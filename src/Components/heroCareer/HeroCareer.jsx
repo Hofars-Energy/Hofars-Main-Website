@@ -1,6 +1,5 @@
 import "./heroCareer.css";
 import React from "react";
-import Typewriter from "typewriter-effect";
 
 const HeroCareer = () => {
   return (
