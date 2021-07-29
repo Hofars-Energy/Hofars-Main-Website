@@ -1,5 +1,6 @@
 .hero-container10 {
-  background: black;
+  background: url("https://images5.alphacoders.com/600/thumb-1920-600293.jpg")
+    center center/cover no-repeat;
   height: 80vh;
   width: 100%;
   display: flex;

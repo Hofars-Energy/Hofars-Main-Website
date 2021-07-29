@@ -5,9 +5,9 @@ import TeamMembers from "./members";
 const About = () => {
   return (
     <>
-      <div>
+      <div className="ramji">
         <section className="about-us">
-          <h1>About Us</h1>
+          <h1>KNOW A LITTLE MORE ABOUT US</h1>
           <p></p>
           <br></br>
         </section>

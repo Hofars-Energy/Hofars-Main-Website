@@ -112,7 +112,20 @@
             ,"Experience in Shopify App Development using programming languages"
             ,"Has knowledge around UX aspects and has suggested/implemented UX  features in his previous implementations."
             ,"Knowledge of Ruby on Rails framework"],
-        "mandatorySkills":""}
+        "mandatorySkills":""},
+        { "name": "Trial",
+            "location": "Hyderabad", "id": 9 ,
+            "budget":"Max 7 LPA",
+            "responsibilities":["Design, code, test and manage various applications.","Follow outlined standards of quality related to code and systems "," Develop automated tests and conduct performance tuning"],
+            "qualifications":[
+                "Bachelor’s degree in Computer Science or relevant field",
+                "1.5-3 years of experience working with .NET or relevant experiences",
+                "Experience developing web-based applications in (.NET 4.5), ASP.Net, ASP core, is good to have MVC, Entity Framework, LINQ, postgresql,VB.Net/C# .Net, SOAP/REST, and experience in SQL database.",
+                "Experience working in an agile development environment",
+                "Maintaining documentation, flowcharts, layouts, diagram, charts, code. comments and clear code",
+                "Strong background in object-oriented development techniques",
+                "Ability to learn new technologies"],
+            "mandatorySkills":"Entity framework core (2+ years),LINQ,MVC,C#, Asp.net"}
 ]
 
  
